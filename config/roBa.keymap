@@ -40,6 +40,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        mission-controll {
+            bindings = <&kp LC(UP_ARROW)>;
+            key-positions = <15 14>;
+        };
     };
 
     macros {
